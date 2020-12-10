@@ -463,8 +463,10 @@
                 class="input footer__input" 
                 placeholder="Phone Number*">
               <textarea class="footer__message" cols="30" rows="10" placeholder="Message"></textarea>
-              <button class="button footer__button" type="submit">Send</button>
-              <span class="footer__info">* Required Fields</span>
+              <div class="footer__form-bottom">
+                <button class="button footer__button footer__form-button" type="submit">Send</button>
+                <span class="footer__info footer__form-info">* Required Fields</span>
+              </div>
             </form>    
           </div>
           <!-- /.footer__contact-form -->
@@ -473,9 +475,27 @@
     </div>
     <!-- /.container -->
   </footer>
-  
+  <section class="relation">
+    <div class="container">
+      <div class="relation-wrapper">
+        <ul class="relation-list">
+          <li class="relation-list__item">
+            <a href="#" class="relation-list__link">Disclaimer</a>
+          </li>
+          <li class="relation-list__item">
+            <a href="#" class="relation-list__link">Conditions of use</a>
+          </li>
+          <li class="relation-list__item">
+            <a href="#" class="relation-list__link">Cancellation policy</a>
+          </li>
+        </ul>
+        <img class="relation__image" src="img/relation-links.png" alt="Icon: links">  
+      </div>
+      <!-- ./relation-wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
-
 </html>
