@@ -482,6 +482,15 @@ template {
   color: #333333;
 }
 
+.scroll-hidden {
+  overflow: hidden;
+  height: 100%;
+}
+
+.navbar-bottom {
+  overflow-y: scroll;
+}
+
 .breadcrumb-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -806,6 +815,10 @@ template {
   height: 213px;
   border-radius: 10px;
   overflow: hidden;
+}
+
+.map-frame {
+  width: 100%;
 }
 
 .newsletter {
@@ -1211,6 +1224,7 @@ template {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .footer__form-bottom {
@@ -1806,7 +1820,7 @@ template {
     width: inherit;
   }
   .footer__form-info {
-    margin-left: -62px;
+    margin-left: -63px;
     margin-bottom: 15px;
   }
   .relation-wrapper {
