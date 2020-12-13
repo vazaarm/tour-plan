@@ -94,6 +94,9 @@
   .relation
     &-wrapper
       justify-content: flex-start
+  .modal
+    &__dialog
+      width: 85%
 @media ( max-width: 768px )
   .container
     max-width: 576px
@@ -101,6 +104,8 @@
   body
     padding-top: 78px
   .navbar
+    &-bottom
+      overflow-y: scroll
     &--mobile
       &_fixed
         position: fixed
@@ -291,6 +296,25 @@
       margin-bottom: 10px
     &__image
       position: relative
+  .modal
+    &__dialog
+      padding: 18px 35px
+    &__close
+      right: 16px
+      top: 15px
+    &__form
+      font-size: 13px
+      &-bottom
+        position: relative
+        flex-direction: column-reverse
+      &-info
+        margin-bottom: 15px
+        position: absolute
+        top: 0
+        left: 0
+      &-button
+        margin-top: 27px
+        width: 100%
 @media ( min-width: 320px ) and ( max-width: 480px )
   .navbar
     &-top

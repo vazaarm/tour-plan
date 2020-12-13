@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACG,AAAD,eAAU,CAAC;EACT,QAAQ,EAAE,KAAK;EACf,IAAI,EAAE,CAAC;EACP,KAAK,EAAE,CAAC;EACR,GAAG,EAAE,CAAC;EACN,MAAM,EAAE,CAAC;EACT,gBAAgB,EAAE,uBAAuB;EACzC,OAAO,EAAE,GAAG;CAAG;;AAChB,AAAD,cAAS,CAAC;EACR,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,GAAG;EACR,IAAI,EAAE,GAAG;CACH",
+    "sources": [
+        "../sass/blocks/modal.sass"
+    ],
+    "names": [],
+    "file": "modal.css"
+}
